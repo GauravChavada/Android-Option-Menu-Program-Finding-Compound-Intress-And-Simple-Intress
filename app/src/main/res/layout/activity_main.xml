@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:id="@+id/pa"
+        android:hint="Principle Amount"
+        android:layout_marginTop="100dp"
+        ></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="Rate Of Intrest"
+        android:id="@+id/rof"></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="Number Of Years"
+        android:id="@+id/noy"
+        ></EditText>
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+    </LinearLayout>
